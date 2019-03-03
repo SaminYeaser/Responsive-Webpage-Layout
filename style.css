@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h3{
+    text-align: center;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+    height: 800px;
+    background: #666;
+}
+.row1{
+    width: 100%;
+    height: 8%;
+    
+}
+.row1 .logo{
+    width: 50%;
+    height: 100%;
+    background: #257;
+   float: left;
+}
+.row1 .banner{
+    width: 50%;
+    height: 100%;
+    background: #260;
+   float: left;
+}
+.row-2{
+    width: 100%;
+    height: 13%;
+    background:#263; 
+    float: left;
+}
+.row-5{
+    width: 100%;
+    height: 35%;
+}
+.row-5 .side-left{
+    width: 40%;
+    height: 100%;
+    background: #274;
+    float: left;
+}
+.row-5 .side-right{
+    width: 60%;
+    height: 100%;
+    background: #278;
+    float: left;
+}
+.row-3{
+    width: 100%;
+    height: 35%;
+}
+.row-3 .article-1{
+    width: 33%;
+    height: 100%;
+    background: #265;
+    float: left;
+}
+.row-3 .article-2{
+    width: 34%;
+    height: 100%;
+    background: #287;
+    float: left;
+}
+.row-3 .article-3{
+    width: 33%;
+    height: 100%;
+    background: #299;
+    float: left;
+}
+.row-4{
+    width: 100%;
+    height: 10%;
+}
+.row-4 .footer{
+    width: 100%;
+    height: 100%;
+    background: #272;
+    float: left;
+}
+@media (min-width:400px) and (max-width:600px){
+    body{
+        background-color: red;
+    }
+.row1{
+    width: 100%;
+    height: 20%;
+    
+}
+.row1 .logo{
+    width: 100%;
+    height: 50%;
+    background: #257;
+}
+.row1 .banner{
+    width: 100%;
+    height: 50%;
+    background: #260;
+}
+.row-3{
+    width: 100%;
+    height: 50%;
+}
+.row-3 .article-1{
+    width: 100%;
+    height: 33%;
+    background: #265;
+}
+.row-3 .article-2{
+    width: 100%;
+    height: 34%;
+    background: #287;
+}
+.row-3 .article-3{
+    width: 100%;
+    height: 33%;
+    background: #299;
+    }
+.row-5{
+    width: 100%;
+    height: 35%;
+}
+.row-5 .side-left{
+    width: 100%;
+    height: 50%;
+    background: #274;
+}
+.row-5 .side-right{
+    width: 100%;
+    height: 50%;
+    background: #278;
+    }
+}
